@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 30px;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+input {
+    padding: 1rem;
+    margin: .2rem;
+}
